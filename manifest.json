@@ -5,6 +5,12 @@
     "version": "1.0",
     "action": {
         "default_popup": "Tabing.html",
-        "default_icon": "hello_extensions.png"
-    }
+        "default_icon": "tabbing.png"
+    },
+    
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "storage"
+    ]
 }

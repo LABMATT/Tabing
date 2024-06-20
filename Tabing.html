@@ -1,5 +1,52 @@
-<html>
-    <body>
-      <h1>Hello Extensions</h1>
-    </body>
-  </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Inportnet info -->
+    <title>Tabing</title>
+    <meta charset="UTF-8">
+
+    <!-- Include nessary script files. -->
+    <script type="text/javascript" src="assets/script/mainTabs.js"></script>
+
+    <!-- Include nesscary css files. -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mainTabs.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/profile.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/tabMeta.css">
+
+
+</head>
+
+<!-- Main Html Body, setup some basic things with init -->
+<body id="body" onload="init()">
+
+    <h2>Tabing</h2>
+    <p>- Add a new profile to begin "(+)" <br> - Blue profile = active. <br> - Click "Run Profile" To change profile <br> - Purple text on profile = Run on start</p>
+
+    <h3 id="profileHeading">Profiles:</h3>
+    <div id="profileContrainer">
+        <div>
+            <h3 id="addProfile">+</h3>
+        </div>
+    </div>
+
+
+    <div id="tabMeta">
+
+        <button>Run Profile</button>
+        <button>Run on start</button>
+
+        <form>
+        <input type="text">
+        </form>
+    </div>
+
+    <div id="tabPlaceHolder">
+
+    </div>
+
+</body>
+</html>

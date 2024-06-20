@@ -1,0 +1,30 @@
+#profileHeading {
+    
+    margin-block: 0;
+}
+
+#profileContrainer {
+    
+    margin-top: 0.2em;
+    display: flex;
+    flex-direction: row;
+    
+    border-bottom: 1px solid rgb(40,40,40);
+}
+
+
+#addProfile {
+    
+    margin: 0;
+    padding: 0.4em;
+    border: 1px solid rgb(40,40,40);
+    border-bottom: none;
+    
+    font-weight: bold;
+}
+
+#addProfile:hover {
+    
+    background-color: red;
+    transition-duration: 0.4s;
+}
